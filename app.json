@@ -2,6 +2,11 @@
   "expo": {
     "name": "todo",
     "slug": "todo",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,10 +25,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.choieunjo.todo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7ed9e19e-b435-4a78-b1f6-8fed1e2fcd62"
+      }
+    },
+    "owner": "choieunjo"
   }
 }
